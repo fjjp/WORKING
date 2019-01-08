@@ -6,7 +6,6 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="C:/Users/611584708/desktop/611584708/psq.owl">
-    <Prefix name="" IRI="C:/Users/611584708/desktop/611584708/psq.owl"/>
     <Prefix name="gr" IRI="http://purl.org/goodrelations/v1#"/>
     <Prefix name="dct" IRI="http://purl.org/dc/terms/"/>
     <Prefix name="fro" IRI="http://www.xbrlsite.com/2015/fro/us-gaap/owl/FinancialReportOntology.xml#"/>
