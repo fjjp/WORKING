@@ -1,0 +1,675 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="C:/Users/611584708/desktop/611584708/psq.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="C:/Users/611584708/desktop/611584708/psq.owl">
+    <Prefix name="" IRI="C:/Users/611584708/desktop/611584708/psq.owl"/>
+    <Prefix name="gr" IRI="http://purl.org/goodrelations/v1#"/>
+    <Prefix name="dct" IRI="http://purl.org/dc/terms/"/>
+    <Prefix name="fro" IRI="http://www.xbrlsite.com/2015/fro/us-gaap/owl/FinancialReportOntology.xml#"/>
+    <Prefix name="org" IRI="http://www.w3.org/TR/vocab-org/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="psq" IRI="C:/Users/611584708/desktop/611584708/psq.owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="acrt" IRI="https://privatealpha.com/ontology/certification/1#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Accreditation ACRT
+http://privatealpha.com/ontology/certification/1</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">PSQ</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">1.0</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">GoodRelations
+http://purl.org/goodrelations/v1.owl</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Financial Report Ontology
+http://www.xbrlsite.com/2015/fro/us-gaap/owl/FinancialReportOntology.xml</Literal>
+    </Annotation>
+    <Declaration>
+        <NamedIndividual IRI="#BT_España_Cloud"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="gr:name"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="acrt:Certification"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="dct:abstract"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://schema.org/subOrganization"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCustomerStory"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="gr:description"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://xmlns.com/foaf/0.1/Agent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ISO14001-2015"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#qualifies1Supplier"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#relatesNProductOrService"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="gr:BusinessEntity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="acrt:authority"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://schema.org/MonetaryAmount"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SupplierCustomerStory"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="gr:ProductOrService"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BT_GlobalServices_Cloud"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMonetaryAmount"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BT_España_Profile"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="acrt:principal"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://schema.org/value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="dct:title"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="dct:coverage"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="gr:Offering"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCertification"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BT_España_VIPS"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#relates1Customer"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="dct:date"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="rdfs:label"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SupplierQualificationProfile"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BT_GlobalServices"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://schema.org/parentOrganization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FinancialReport"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BT_España_ISMS"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSupplier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Supplier"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ISO9001-2015"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#amount000"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#test"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="acrt:qualification"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="dct:identifier"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ISO27001-2013"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WAN_Services"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LRQA"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="gr:eligibleRegions"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BT_España_EMS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BT_España_QMS"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasFinancialReport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Certifier"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#provides"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ISO9001-2008"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BT_España"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cloud_Services"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="gr:includes"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="dct:issued"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="dct:valid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MgmtCertificate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://schema.org/currency"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Certifier"/>
+        <Class abbreviatedIRI="gr:BusinessEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Supplier"/>
+        <Class abbreviatedIRI="gr:BusinessEntity"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Supplier"/>
+        <NamedIndividual IRI="#BT_España"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gr:Offering"/>
+        <NamedIndividual IRI="#BT_España_Cloud"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="acrt:Certification"/>
+        <NamedIndividual IRI="#BT_España_EMS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="acrt:Certification"/>
+        <NamedIndividual IRI="#BT_España_ISMS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SupplierQualificationProfile"/>
+        <NamedIndividual IRI="#BT_España_Profile"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="acrt:Certification"/>
+        <NamedIndividual IRI="#BT_España_QMS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SupplierCustomerStory"/>
+        <NamedIndividual IRI="#BT_España_VIPS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Supplier"/>
+        <NamedIndividual IRI="#BT_GlobalServices"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gr:Offering"/>
+        <NamedIndividual IRI="#BT_GlobalServices_Cloud"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gr:ProductOrService"/>
+        <NamedIndividual IRI="#Cloud_Services"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MgmtCertificate"/>
+        <NamedIndividual IRI="#ISO14001-2015"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MgmtCertificate"/>
+        <NamedIndividual IRI="#ISO27001-2013"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MgmtCertificate"/>
+        <NamedIndividual IRI="#ISO9001-2008"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MgmtCertificate"/>
+        <NamedIndividual IRI="#ISO9001-2015"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Certifier"/>
+        <NamedIndividual IRI="#LRQA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="gr:ProductOrService"/>
+        <NamedIndividual IRI="#WAN_Services"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://schema.org/MonetaryAmount"/>
+        <NamedIndividual IRI="#amount000"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#provides"/>
+        <NamedIndividual IRI="#BT_España"/>
+        <NamedIndividual IRI="#Cloud_Services"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://schema.org/parentOrganization"/>
+        <NamedIndividual IRI="#BT_España"/>
+        <NamedIndividual IRI="#BT_GlobalServices"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="gr:includes"/>
+        <NamedIndividual IRI="#BT_España_Cloud"/>
+        <NamedIndividual IRI="#Cloud_Services"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="acrt:authority"/>
+        <NamedIndividual IRI="#BT_España_EMS"/>
+        <NamedIndividual IRI="#LRQA"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="acrt:principal"/>
+        <NamedIndividual IRI="#BT_España_EMS"/>
+        <NamedIndividual IRI="#BT_España"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="acrt:qualification"/>
+        <NamedIndividual IRI="#BT_España_EMS"/>
+        <NamedIndividual IRI="#ISO14001-2015"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="acrt:authority"/>
+        <NamedIndividual IRI="#BT_España_ISMS"/>
+        <NamedIndividual IRI="#LRQA"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="acrt:principal"/>
+        <NamedIndividual IRI="#BT_España_ISMS"/>
+        <NamedIndividual IRI="#BT_España"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="acrt:qualification"/>
+        <NamedIndividual IRI="#BT_España_ISMS"/>
+        <NamedIndividual IRI="#ISO27001-2013"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCertification"/>
+        <NamedIndividual IRI="#BT_España_Profile"/>
+        <NamedIndividual IRI="#BT_España_EMS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCertification"/>
+        <NamedIndividual IRI="#BT_España_Profile"/>
+        <NamedIndividual IRI="#BT_España_ISMS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCertification"/>
+        <NamedIndividual IRI="#BT_España_Profile"/>
+        <NamedIndividual IRI="#BT_España_QMS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasCustomerStory"/>
+        <NamedIndividual IRI="#BT_España_Profile"/>
+        <NamedIndividual IRI="#BT_España_VIPS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#qualifies1Supplier"/>
+        <NamedIndividual IRI="#BT_España_Profile"/>
+        <NamedIndividual IRI="#BT_España"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="acrt:authority"/>
+        <NamedIndividual IRI="#BT_España_QMS"/>
+        <NamedIndividual IRI="#LRQA"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="acrt:principal"/>
+        <NamedIndividual IRI="#BT_España_QMS"/>
+        <NamedIndividual IRI="#BT_España"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="acrt:qualification"/>
+        <NamedIndividual IRI="#BT_España_QMS"/>
+        <NamedIndividual IRI="#ISO9001-2015"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://schema.org/subOrganization"/>
+        <NamedIndividual IRI="#BT_GlobalServices"/>
+        <NamedIndividual IRI="#BT_España"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI="gr:includes"/>
+        <NamedIndividual IRI="#BT_GlobalServices_Cloud"/>
+        <NamedIndividual IRI="#Cloud_Services"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="rdfs:label"/>
+        <NamedIndividual IRI="#BT_España"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">BT España</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="gr:eligibleRegions"/>
+        <NamedIndividual IRI="#BT_España_Cloud"/>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Europe/Spain</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="dct:identifier"/>
+        <NamedIndividual IRI="#BT_España_EMS"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">LRQA_XXXX_YYY_ZZZ</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="dct:issued"/>
+        <NamedIndividual IRI="#BT_España_EMS"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2018-12-31T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="dct:valid"/>
+        <NamedIndividual IRI="#BT_España_EMS"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2018-12-31T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="dct:identifier"/>
+        <NamedIndividual IRI="#BT_España_ISMS"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">LRQA-XX-XX-X-X-X-X-X</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="dct:issued"/>
+        <NamedIndividual IRI="#BT_España_ISMS"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2018-12-31T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="dct:valid"/>
+        <NamedIndividual IRI="#BT_España_ISMS"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2022-12-31T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="dct:identifier"/>
+        <NamedIndividual IRI="#BT_España_QMS"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">LRQA-XXX-YYY-ZZZ-WWW</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="dct:issued"/>
+        <NamedIndividual IRI="#BT_España_QMS"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2018-12-31T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="dct:valid"/>
+        <NamedIndividual IRI="#BT_España_QMS"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">2022-12-31T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="dct:title"/>
+        <NamedIndividual IRI="#BT_España_VIPS"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Contrato de outsourcing TI, comunicaciones y CAU</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="rdfs:label"/>
+        <NamedIndividual IRI="#BT_GlobalServices"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">BT Global Services</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="gr:eligibleRegions"/>
+        <NamedIndividual IRI="#BT_GlobalServices_Cloud"/>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">&quot;Europe,America,APAC&quot;</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="gr:name"/>
+        <NamedIndividual IRI="#Cloud_Services"/>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">&quot;IT Cloud Services&quot;</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="rdfs:label"/>
+        <NamedIndividual IRI="#Cloud_Services"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">IaaS,PaaS,CaaS</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="rdfs:label"/>
+        <NamedIndividual IRI="#ISO14001-2015"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ISO</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="gr:name"/>
+        <NamedIndividual IRI="#WAN_Services"/>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">&quot;Comm WAN Services&quot;</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="rdfs:label"/>
+        <NamedIndividual IRI="#WAN_Services"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">WAN Services</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/currency"/>
+        <NamedIndividual IRI="#amount000"/>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">EUR</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://schema.org/value"/>
+        <NamedIndividual IRI="#amount000"/>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">1.000.000</Literal>
+    </DataPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCertification"/>
+        <Class IRI="#SupplierQualificationProfile"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCustomerStory"/>
+        <Class IRI="#SupplierQualificationProfile"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasFinancialReport"/>
+        <Class IRI="#Supplier"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasMonetaryAmount"/>
+        <Class IRI="#SupplierCustomerStory"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSupplier"/>
+        <Class IRI="#SupplierQualificationProfile"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#provides"/>
+        <Class IRI="#Supplier"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#qualifies1Supplier"/>
+        <Class IRI="#SupplierQualificationProfile"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#relates1Customer"/>
+        <Class IRI="#SupplierCustomerStory"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#relatesNProductOrService"/>
+        <Class IRI="#SupplierCustomerStory"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="acrt:authority"/>
+        <Class abbreviatedIRI="acrt:Certification"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="acrt:principal"/>
+        <Class abbreviatedIRI="acrt:Certification"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCertification"/>
+        <Class abbreviatedIRI="acrt:Certification"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCustomerStory"/>
+        <Class IRI="#SupplierCustomerStory"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasFinancialReport"/>
+        <Class IRI="#FinancialReport"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMonetaryAmount"/>
+        <Class IRI="http://schema.org/MonetaryAmount"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSupplier"/>
+        <Class IRI="#Supplier"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#provides"/>
+        <Class abbreviatedIRI="gr:ProductOrService"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#qualifies1Supplier"/>
+        <Class IRI="#Supplier"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#relates1Customer"/>
+        <Class abbreviatedIRI="gr:BusinessEntity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#relatesNProductOrService"/>
+        <Class abbreviatedIRI="gr:ProductOrService"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="acrt:authority"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Agent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="acrt:principal"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Agent"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty abbreviatedIRI="rdfs:label"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MgmtCertificate</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A Management Certificate is a stamp about one management system that one company uses in several domains:
+quality management systems: p.e. ISO9001
+environmental management systems: p.e. ISO14001
+service deliery management systems: p.e. ISO20000
+information security management systems: p.e. ISO27001</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Supplier</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Class &quot;Provider&quot; models one Business Entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SupplierCustomerStory</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A customer story is a small description of one successful commercial transaction between the customer and the supplier whom discloses publicly.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SupplierQualificationProfile</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">A supplier qualifitation profile is a self-description disclosed by one supplier. It encompasses public information that the supplier declares so as to get better known in the market.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <AbbreviatedIRI>gr:BusinessEntity</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">http://purl.org/goodrelations/v1#</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <AbbreviatedIRI>gr:Offering</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">http://purl.org/goodrelations/v1#</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <AbbreviatedIRI>gr:ProductOrService</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">http://purl.org/goodrelations/v1#</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <AbbreviatedIRI>gr:description</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">http://purl.org/goodrelations/v1#</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <AbbreviatedIRI>gr:eligibleRegions</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">http://purl.org/goodrelations/v1#</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <AbbreviatedIRI>gr:includes</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">http://purl.org/goodrelations/v1#</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <AbbreviatedIRI>gr:name</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">http://purl.org/goodrelations/v1#</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://schema.org/MonetaryAmount</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">http://schema.org</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://schema.org/currency</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">http://schema.org</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://schema.org/parentOrganization</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">http://schema.org</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://schema.org/subOrganization</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">http://schema.org</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://schema.org/value</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">http://schema.org</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
